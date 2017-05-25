@@ -1,0 +1,268 @@
+Pages:
+
+    * Home.php
+    ---------------
+        * Services 	* Personal	* Buy	* Sell	* Jobs	* Wedding	* Blog	* Events & Notices * Others
+
+    * publish.php
+    ---------------
+        * Share 
+            - Facebook | Twitter
+    
+    * single.php
+    ---------------
+
+    * category.php
+    ---------------
+
+    * profile.php
+    ---------------
+
+    * search.php
+    ---------------
+        *   
+            - Price ( Min & Max )
+            - Offers/Discount
+
+        *     
+            - Condition => Used | New 
+            - For => Rent | Sale | Buy
+
+            - Mileage
+            - Energy => Petrol | Diesel | Gas | Electric | Hybrid
+            - Year  (Manufactured)
+
+
+
+        - Type => 
+            01. Full time | Part time | Home based 
+            02. Flat/Apartment | House | Bungalow | Shop | Office | Land
+        - Bed rooms (Min & Max)    
+
+        - Type of contract => Permanent | Temporary | Freelance  
+        
+        
+        - Duration => Hourly | Daily | Weekly | Monthly | Yearly 
+
+        - Members  
+        
+        - Language
+        
+        
+   
+        * Sort
+                - Popular | Recent 
+
+                --------------------------------------------------------------
+
+
+        * Places ( Chennai | Mumbai )
+
+        * Within ( Km )<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://instagram.com/p/41XrSIlh3I/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_top">Do we really need a special day for something this special? #WorldChocolateDay #Chocolate #dessert #food #nomnom #sweetooth #deathbychocolate #instagood #instalove #happycalories #happiness #AxisBank #DiningDelights</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A photo posted by Axis Bank (@axis_bank) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-07-07T11:51:44+00:00">Jul 7, 2015 at 4:51am PDT</time></p></div></blockquote>
+        <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+
+    * page.php    
+    ---------------
+
+    * contact-us.php    
+    ---------------
+
+    * admin.php    
+    ---------------
+
+
+    * 404.php
+    ---------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Services 	* Personal	* Buy	* Sell	* Jobs	* Wedding	* Blog	* Events & Notices * Others
+
+------------------------------------------------
+
+* Services
+	<BUY - SELL>
+	* Catering
+	* Health
+	* Body massage
+
+			
+		
+
+* Entertainment
+
+* Personal
+	* Seeking Woman
+		* Long Term
+		* Short Term
+	* Seeking Man
+		* Long Term
+		* Short Term		
+	* Friendship
+	* Adults
+		* Dating
+		* Escorts
+
+	
+* Business
+	* Buy ( Used | Not Used, Rental   )
+		* Home Appliances
+			* Furnitures
+			* Vessels
+
+		* Properties
+			* House
+			* Flat
+			* Land
+			* Shop
+			* Office
+			* Parking / Storage
+			* Others
+		
+		* Automobile
+			* Two Wheeler
+				* Motor Cycles
+				* Accessories
+			* Four Wheeler
+				* Bus
+				* Car
+				* Van
+				* Truck
+				* Accessories			
+			* Others
+				*  Accessories
+		* Electronics
+			* Mobiles
+			* Computer 
+			* Camera
+			* Watch
+			* AC
+			* TV
+			* CD / DVD
+			* Scanner
+			* Printer
+		* Sports
+		* Travel 
+		* Books
+		* Food / Drinks
+		* Jewellery
+		* Clothes / Accessories
+		* Art / Crafts
+		* Kid's Items
+		* Boats
+		* Pets
+		* Others		
+
+	* Sell ( Used | Not Used, Rental )
+				
+	* Jobs
+		* Job Seeking
+			* Part Time
+			* Full Time
+			* Work from home
+			* Internships		
+		* Posting
+			* Part Time
+			* Full Time
+			* Freelancer
+			* Internships
+
+* Blog
+	* Programming
+	* Nature
+	* Kids
+	*
+	
+
+* Events / Notices
+			
+	* Lost / Found
+	* Feedbacks / Worst Product
+	* Bids & Proposals
+	* General Annoucements
+	* Weddings
+
+* Others
+	
+
+----------------------------------------------------------------------------------------
+Extra Features:
+----------------
+
+<Misc. Includes>
+** Music player
+
+
+	lang	age/span  type   level  prefer 
+	-------------------------------------------- 
+	- Tamil
+		- Latest
+		- New
+			- beat
+				- High
+					- best
+					- better
+					- good
+
+				- Middle
+				- Low		
+			- medium
+			- melody
+		- Mid
+		- old
+		- oldest
+		- extra
+			- devotional
+				- christian
+			- tones
+			- theme-music
+			- samples
+			- dialogs
+		
+
+	- Hindi
+	- Malayalam
+	- Thelugu
+	- English
+
+	[Database]
+		* tbl_songs
+			- id
+			- title
+			- 
+
+
+
+
+
+** Poll (Ref: http://polldaddy.com/signup-free/?ad=poll-results)
+** Calculator
+** SMS Service
+** Chat Service
+** Paint Program
+** Converters
+    - color-codes
+        - Hex to RGBA
+** Games
+    - games.sourceplate.com
+            - Puzzle 
+                    - Picture Puzzle
+                    - Number Puzzle
+
+            - Click Blink box
+
+            - Remember Box/Picture
+
+
+

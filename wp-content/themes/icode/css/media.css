@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:1023px){
+.slideFirst .col-xs-3 { display:none; }
+.slideFirst .col-xs-7 { width:83.3333333%; }
+.headerMenu .searchTrigger { border-right:none; padding-right:0; }
+.threePlatform li { display:block; float:none; width:100%; }
+}
+@media screen and (max-width:768px){
+body { overflow-x:hidden; padding:84px 0 0 0; position:relative; }
+.mobileTrigger { cursor:pointer; display:inline-block; padding:17px 10px 9px; }
+.mobileTrigger span { background-color:#56ccc8; display:block; margin-bottom:4px; height:4px; width:25px; }
+.logo { display:inline-block; float:none; margin-left:-54px; left:50%; position:absolute; top:0; width:inherit !important; }
+.logo span { padding:15px 0; }
+.rite-arrow { border-left:1px solid #56ccc8; cursor:pointer; display:inline-block; padding:16px; position:absolute; right:0; top:0; }
+.rite-arrow:after { color:#FFF; content:"\f105"; font-family:'FontAwesome'; font-size:30px; }
+.mobSlide { background-color:#333; border-right:3px solid #56ccc8; height:100%; left:-240px; position:fixed; top:0; width:240px; }
+header ul li { float:none; display:block; border-bottom:1px solid #56ccc8 }
+.subMenu { background-color:#333; border-right:3px solid #56ccc8; display:block; height:100%; left:-240px; position:fixed; top:0; width:240px; }
+.subMenu li a { color:#FFF; font-size:16px; padding:17px; }
+header ul li a { display:block; padding:18px 15px; }
+header { transition: inherit; -webkit-transition: inherit; -moz-transition: inherit; -o-transition: inherit; }
+.subMenu li.backTo { cursor:pointer; display:block; }
+.headerMenu { padding-right:0; position:static }
+/*.headerMenu > nav > ul { background-color:#333; height:100%; position:absolute; left:-240px; top:0; width:240px; }
+.slideFirst .col-xs-7 { display:inline-block; position:static; width:inherit; }
+.subMenu { background-color:#333; border-bottom:none; display:block; height:100%; position:absolute; left:-240px; top:0; width:240px; }
+.subMenu li a { color:#FFF; padding:15px; }
+header ul li { float:none; display:block; }
+.headerMenu ul li a { display:block; }
+.headerMenu { padding-right:0; position:static; }*/
+.subMenu:before { display:none; }
+.slideFirst .col-xs-7 { display:inline-block; position:static; width:inherit; }
+.searchOverflow { position:static; }
+.searchBox input[type="submit"] { padding:15px; }
+.searchBox input[type="text"] { padding: 7px 15px 7px 30px; }
+.searchBox i { padding:12px 10px; top:10px; }
+.searchTrigger a { padding:16px 10px; }
+.headerMenu .searchTrigger { right:10px; }
+}
+@media screen and (max-width:767px){
+.demoDownload a.btn { margin-left:0; width:100%; min-width:inherit; }
+.demoDownload a.btn:first-child { margin-bottom:15px; }
+}
+@media screen and (max-width:720px){
+[class*="col-xs-"]{ float:none; width:100%; }
+.articleDesc a { display:block; }
+.singlePost { display:block; }
+.footRight, .footLeft { text-align:center; }
+.footLeft ul li { float:none; }
+.blogPost > div:first-child { padding-bottom:25px; }
+.sideBar { margin-top:25px; }
+}
+@media screen and (max-width:580px){
+.footLeft ul li { border-bottom:1px solid #56ccc8; display:block; }
+.footLeft ul { margin:0 -15px; }
+.footLeft ul li:first-child a { padding-top:2px; }
+.footLeft ul li a { display:block; padding:12px; }
+.footRight { padding-top:10px; }
+.listDiv ol, .listDiv ul { padding-left:0; }
+blockquote { margin-left:0; margin-right:0; }
+.articlePost > div { padding:30px 15px; }
+.nextPrev a { display:block; float:none; text-align:center; }
+.nextPrev a:first-child { padding-bottom:15px; }
+.articlePost > div { padding:20px 15px; }
+figure.mainIMG { margin:0 -15px 30px; }
+.formInput { padding-left:0; }
+.formInput label { position:static; width:100%; }
+.formSection input[type="submit"] { width:100%; }
+.formSection .errBox { margin-left:0; }
+}
+@media screen and (max-width:480px){
+.blogPost > div { padding-left:10px; padding-right:10px; }
+a.btn, .btn { width:100%; }
+.searchMain input[type="submit"] { width:53px; }
+.searchOptions .ui-state-default { margin-top:10px; position:relative; right:0; top:0; width:100% !important; }
+div.searchOptions { padding-right:0; }
+.searchBox input[type="submit"] { width:52px; }
+.showComments > div > span i.fa-reply { left:90%; }
+.showComments > div > span > a.replyLink { display:block; float:none; }
+}
