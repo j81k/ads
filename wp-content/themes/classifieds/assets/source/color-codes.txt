@@ -1,0 +1,27 @@
+Orange 	- rgb(246, 181, 61)
+
+Blue 
+	Dark	: rgb(0, 126, 183) | *rgb(76, 117, 155)	| *rgb(77, 141, 201)
+	Light	:  
+
+Indigo 	- 
+	Dark 	: rgb(136, 128, 169) | *rgb(116, 91, 151)
+	Light	: *rgb(131, 147, 223)
+
+Green 	- 
+	Dark 	: rgb(94, 185, 169)	| rgb(41, 171, 132) | rgb(63, 103, 92) | *rgb(106, 159, 154) | *rgb(8, 175, 121)
+
+	Light 	: rgb(187, 201, 102)	| rgb(50, 208, 158) | *rgb(223, 226, 52)
+	
+	Blue	: *rgb(120, 217, 206) 	| *rgb(110, 187, 185)
+	
+
+Purple 	- rgb(156, 104, 179)
+
+Majento
+	Dark	: 
+	Light	: rgb(152, 159, 224)
+
+Yellow
+	Dark	:
+	LIght	: rgb(254, 237, 149) 	| rgb(239, 224, 29)

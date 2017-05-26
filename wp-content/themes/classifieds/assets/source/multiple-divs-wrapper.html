@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="../../lib/jquery-1.11.1.min.js"></script>
+        <style>
+            #wrapper {
+                width: 80%;
+                margin: 0 auto;
+                min-height: 3700px;
+                border: 1px solid #f00;
+            }
+            
+            .block {
+                /*width: 10%;*/
+                /*min-width: 100px;*/
+                float: left;
+            }
+            
+            .block > div{
+                min-height: 250px;
+                color: #fff;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 100px;
+                margin: 5px;
+            }
+            
+            
+        </style>
+        <script>
+            var total = 100
+            ,   minWidth = 40 // %
+            ,   maxWidth = 50
+            ,   minHeight = 100 // px
+            ,   maxHeight = 200
+            ,   winWidth = window.innerWidth;
+            
+            
+            
+            
+            var varyWidth = true
+            ,   varyHeight = false;
+            
+            function rand(end, start) {
+                return Math.floor( (Math.random()*end)+start );
+            }
+            window.onload = function(){
+                var $wrapper = document.getElementById( 'wrapper' )
+                ,   html    = '';
+                
+                var rowWidth = 100
+                ,   nowWidth = 0
+                ,   possibleSplits = Math.floor(rowWidth/minWidth);
+                        
+                for(var i=1; i<=total; i++){
+                    html += '<div class="block" style="';
+                    if( varyWidth ) {
+                        var randWidth = rand(maxWidth, minWidth);
+                        
+                        if( (randWidth + nowWidth) > rowWidth ) {
+                            // Current Row width is increased.
+                            randWidth = rowWidth-nowWidth;
+                            //console.log( '['+i+']Exceeded. Current Row: ('+ nowWidth +'+'+ randWidth +' = '+ (randWidth + nowWidth) +')');
+                            nowWidth = 0;
+                        }else if( (randWidth + nowWidth) == rowWidth ){
+                            nowWidth = 0;
+                        }else{
+                            nowWidth += randWidth;
+                        }
+                        
+                        if( (nowWidth+minWidth) > rowWidth ){
+                            
+                            randWidth += rowWidth-nowWidth;
+                            nowWidth = 0;
+                            
+                            /*if( randWidth > maxWidth ) {
+                                console.log( '['+i+']Exceeded ');
+                                randWidth = minWidth;
+                            }else{
+                                nowWidth = 0;
+                            } */  
+                                
+                        }
+                        
+                    }else{
+                        // Set Default
+                        randWidth = minWidth;
+                    }    
+                    html += 'width: '+ randWidth +'%;';
+                    
+                    html += '"><div style="background: rgba('+rand(255,0)+','+rand(255,0)+','+rand(255,0)+',1);">'+i+'</div></div>';
+                }
+                $wrapper.innerHTML = html;
+            }
+            
+        </script>
+    <body>
+        
+        <div id="wrapper"> 
+            
+        </div>
+        
+    </body>
+</html>    
